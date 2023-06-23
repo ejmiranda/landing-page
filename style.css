@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -19,7 +20,8 @@
 }
 
 .links a,
-.hero-secondary {
+.hero-secondary,
+.footer-sec p {
   color: #E5E7EB;
 }
 
@@ -28,34 +30,149 @@
   background-color: #3882F6;
 }
 
+.hero-secondary,
+.random-text {
+  font-size: 14px;
+}
+
+.header-sec {
+  padding: 15px 150px; 
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+}
+
 .logo h2 {
   font-size: 24px;
 }
 
 .links  {
   list-style-type: none;
+  gap: 25px;
+  display: flex;
 }
 
 .links a {
   text-decoration: none;
 }
 
+.hero-subsec {
+  margin: 85px 0;
+  display: flex;
+  gap: 40px;
+}
+
+.hero-title {
+  font-size: 48px;
+}
+
+.hero-secondary {
+  margin: 8px 0;
+}
+
+.sign-up {
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
 .hero-img {
   background-color: gray;
-  height: 200px;
-  width: 400px;
+  height: auto;
+  width: 950px;
+  display: flex;
+}
+
+.hero-img p {
+  margin: auto;
+}
+
+.random-info-sec {
+  flex-direction: column;
+  padding: 35px 0 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.random-info-sec h2 {
+  color: #1F2937;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.random-infos {
+  margin: 30px 0 40px 0;
+  display: flex;
+  gap: 35px;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 125px;
+  text-align: center;
 }
 
 .random-img {
   border: 3px solid #3882F6;
+  border-radius: 8px;
   height: 125px;
+  margin: 5px 0;
   width: 125px;
 }
 
 .quote-sec {
   background-color: #E5E7EB;
+  padding: 90px 250px;
+}
+
+.quote {
+  font-size: 29px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .quote-source {
   font-weight: bold;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.cta-sec {
+  padding: 75px 150px;
+}
+
+.cta-block {
+  border-radius: 5px;
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h2 {
+  font-size: 16px;
+}
+
+.cta-text p {
+  font-size: 14px;
+}
+
+.cta-block .sign-up {
+  border: 2px solid #F9FAF8;
+  padding: 5px 25px;
+}
+
+.footer-sec {
+  font-size: 14px;
+  padding: 35px;
+  text-align: center;
 }
