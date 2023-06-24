@@ -9,4 +9,4 @@
 - Replicate an entire web page from the provided design. 
 - Use Flexbox for the layout.
 
-> **_"Even a fool gets to be young once."_** - Frank Lucas
+> **_"Another happy landing!"_** - Obi-Wan Kenobi
