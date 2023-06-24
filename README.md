@@ -9,4 +9,4 @@
 - Replicate an entire web page from the provided design. 
 - Use Flexbox for the layout.
 
-> **_"Another happy landing!"_** - Obi-Wan Kenobi
+> **_"Another happy landing."_** - Obi-Wan Kenobi
